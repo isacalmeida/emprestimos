@@ -1,0 +1,26 @@
+2019-05-22 11:08:52.012  INFO 5440 --- [main] b.e.unoesc.EmprestimosApplicationTests   : Starting EmprestimosApplicationTests on NOTEBOOK-ISAC with PID 5440 (started by isac in C:\Users\isac\eclipse-workspace\emprestimos)
+2019-05-22 11:08:52.015  INFO 5440 --- [main] b.e.unoesc.EmprestimosApplicationTests   : No active profile set, falling back to default profiles: default
+2019-05-22 11:08:54.290  INFO 5440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-22 11:08:54.528  INFO 5440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 217ms. Found 3 repository interfaces.
+2019-05-22 11:08:55.544  INFO 5440 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bee3433b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-22 11:08:56.329  INFO 5440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-22 11:08:59.370  INFO 5440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-22 11:08:59.568  INFO 5440 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-22 11:08:59.749  INFO 5440 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-05-22 11:08:59.752  INFO 5440 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-22 11:09:00.027  INFO 5440 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-22 11:09:00.373  INFO 5440 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-05-22 11:09:00.424  INFO 5440 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-05-22 11:09:00.443  INFO 5440 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@291a4791
+2019-05-22 11:09:11.469  INFO 5440 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-22 11:09:12.891  INFO 5440 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-05-22 11:09:15.491  INFO 5440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 11:09:15.669  WARN 5440 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-22 11:09:16.097  INFO 5440 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-22 11:09:16.697  INFO 5440 --- [main] b.e.unoesc.EmprestimosApplicationTests   : Started EmprestimosApplicationTests in 25.559 seconds (JVM running for 27.889)
+2019-05-22 11:09:17.357  INFO 5440 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 11:09:17.360  INFO 5440 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-22 11:09:17.368  INFO 5440 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-22 11:09:17.462  INFO 5440 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
